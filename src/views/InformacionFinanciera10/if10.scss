@@ -1,0 +1,44 @@
+.soliBody{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10000;
+    background: rgba(0,0,0,0.7);
+}
+.solicutud{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 10002;
+    top: 210px;
+    left: 10%;
+    width: 80%;
+    height: auto;
+    padding: 50px 10px;
+    background: #FFFFFF;
+    border-radius: 27px;
+    p{
+        margin: 10px;
+        font-size: 60px;
+        line-height: 72px;
+        color: #D0021B;            
+    }
+    .swicth-tab{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 14px;
+            line-height: 21px;
+            color: #A19F9D;
+            margin: 0px 10px;
+        }
+    }
+}
+@media (max-width: 768px) {
+    .solicutud{
+        flex-direction: column;
+    }
+}

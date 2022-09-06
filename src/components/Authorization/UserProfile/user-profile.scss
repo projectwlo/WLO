@@ -1,0 +1,122 @@
+@import '../../../assets/styles/brand-colors';
+@import '../../../assets/styles/font-styles';
+
+.img-logo-profiles,
+.img-logo-mobile-profiles {
+  position: absolute;
+}
+
+.img-logo-profiles {
+  width: 303px;
+  height: 99px;
+  left: 14px;
+  top: 18px;
+  background: url('../../../assets/images/logo.png');
+}
+
+.img-logo-mobile-profiles {
+  width: 193px;
+  height: 134px;
+  left: 14px;
+  top: -7px;
+  background: url('../../../assets/images/logomobile.png');
+}
+
+.container-profiles,
+.container-mobile-profiles {
+  position: absolute;
+}
+
+.container-profiles {
+  top: 341px;
+  left: 165px;
+}
+
+.container-mobile-profiles {
+  left: 110px;
+  top: 324px;
+}
+
+.items-container-profiles,
+.items-container-mobile-profiles {
+  box-sizing: border-box;
+  border: 3px solid $white;
+  border-radius: 31px;
+  cursor: pointer;
+}
+
+.items-container-profiles {
+  width: 160px;
+  height: 143px;
+  margin: 10px;
+  padding: 20px;
+
+  p {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    color: $white;
+  }
+
+  svg {
+    width: 71px;
+    height: 71px;
+  }
+}
+
+.items-container-mobile-profiles {
+  width: 110px;
+  height: 99px;
+  top: 324px;
+  padding: 10px;
+  margin: 25px;
+  p {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: center;
+    color: $white;
+  }
+
+  svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.items-container-profiles:hover,
+.items-container-mobile-profiles:hover {
+  background: $red-1;
+}
+
+.title-text-profiles,
+.title-text-mobile-profiles {
+  position: absolute;
+  font-family: 'Bebas Neue', serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 86.5%;
+  text-align: center;
+  color: $white;
+}
+
+.title-text-profiles {
+  width: 436px;
+  height: 104px;
+  left: 128px;
+  top: 165px;
+  font-size: 60px;
+}
+
+.title-text-mobile-profiles {
+  width: 223px;
+  height: 60px;
+  left: 150px;
+  top: 214px;
+  font-size: 35px;
+}

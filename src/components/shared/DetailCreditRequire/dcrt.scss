@@ -1,0 +1,51 @@
+.detailCreditR{
+    padding: 30px;
+    .header{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 5px 0px 15px;
+        h2{
+            margin: 0px auto !important;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 54px;
+            color: #D0021B;
+        }
+    }
+    p.presenta{
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -1.5px;
+        color: #FFFFFF;
+        border: none;
+        border-radius: 38px;
+        background-color: #2FD32B;
+        padding: 5px 15px;
+        text-align: center;
+    }
+    .selectOp{
+        display: flex;
+        margin: 20px 0px 10px;
+        // select{
+
+        // }
+    }
+    @media (max-width: 768px) {
+        .header{
+            flex-direction: column;
+            button{
+                margin-bottom: 20px;
+                margin-right: auto;
+            }
+            h2{
+                margin-bottom: 10px;
+            }
+        }
+        p.presenta{
+            margin-bottom: 10px;
+            font-size: 20px;
+            width: 100%;
+        }
+    }
+}

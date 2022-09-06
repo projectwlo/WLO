@@ -1,0 +1,405 @@
+@import '../../../assets/styles/brand-colors';
+@import '../../../assets/styles/font-styles';
+
+.rectangle-container {
+  box-sizing: border-box;
+
+  position: absolute;
+  left: 5.62%;
+  right: 6.02%;
+  top: 33.33%;
+  bottom: 32.34%;
+
+  border: 2px solid #D0021B;
+  border-radius: 44px;
+  padding: 10px;
+}
+
+.text-referencias {
+  position: absolute;
+  left: 43.83%;
+  right: 38.91%;
+  top: 35.42%;
+  bottom: 59.52%;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #D0021B;
+}
+
+.text-adjuntar-documents {
+  position: absolute;
+  left: 38.28%;
+  right: 39.69%;
+  top: 69.31%;
+  bottom: 25.85%;
+
+  //font-family: 'Open Sans'; TODO: add this font
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  word-wrap: unset;
+
+  color: #D0021B;
+}
+
+.container-actions {
+  display: flex;
+  position: absolute;
+  top: 600px;
+}
+
+.info-document {
+  position: absolute;
+  width: 663px;
+  height: 60px;
+  left: 30.28%;
+  top: 600px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #000000;
+}
+
+.box-cert-work {
+  box-sizing: border-box;
+  position: absolute;
+  width: 147px;
+  height: 139px;
+  top: 676px;
+  border: 1px solid #323130;
+  border-radius: 4px;
+  cursor: pointer;
+
+  svg {
+    position: absolute;
+    left: 37.41%;
+    right: 37.41%;
+    top: 8.63%;
+    bottom: 55.88%;
+  }
+
+  div {
+    position: absolute;
+    left: 6.12%;
+    right: 6.12%;
+    top: 56.12%;
+    bottom: 9.35%;
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #323130;
+  }
+}
+
+.box-cert-ingresos {
+  position: absolute;
+  width: 147px;
+  height: 139px;
+  left: 720px;
+  top: 676px;
+  background: #D0021B;
+  border-radius: 4px;
+  cursor: pointer;
+
+  div {
+    position: absolute;
+    left: 6.12%;
+    right: 6.12%;
+    top: 56.12%;
+    bottom: 9.35%;
+    font-family: 'Open Sans', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    /* Blanco */
+
+    color: #FFFFFF;
+  }
+
+  svg {
+    position: absolute;
+    left: 14.17%;
+    right: 12.5%;
+    top: 23.33%;
+    bottom: 20.83%;
+
+    background: #FFFFFF;
+  }
+}
+
+.box-cert-vehiculo {
+  box-sizing: border-box;
+  position: absolute;
+  width: 147px;
+  height: 139px;
+  left: 880px;
+  top: 676px;
+  border: 1px solid #323130;
+  border-radius: 4px;
+  cursor: pointer;
+
+  svg {
+    position: absolute;
+    left: 37.41%;
+    right: 37.41%;
+    top: 8.63%;
+    bottom: 55.88%;
+  }
+
+  div {
+    position: absolute;
+    left: 6.12%;
+    right: 6.12%;
+    top: 56.12%;
+    bottom: 9.35%;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #323130;
+    vertical-align: bottom;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .rectangle-container {
+    box-sizing: border-box;
+    position: absolute;
+    width: 346px;
+    height: 331px;
+    left: 7px;
+    top: 303px;
+    border: 2px solid #D0021B;
+    border-radius: 21px;
+  }
+
+  .text-referencias {
+    left: 18.06%;
+    right: 19.44%;
+    top: 25.45%;
+    bottom: 72.81%;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    /* identical to box height, or 108% */
+    text-align: center;
+    color: #D0021B;
+  }
+
+
+  .text-adjuntar-documents {
+    position: absolute;
+    left: 10.83%;
+    right: 10.83%;
+    top: 82.62%;
+    bottom: 44.92%;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    color: #D0021B;
+  }
+
+  .info-document {
+    position: absolute;
+    width: 318px;
+    height: 108px;
+    left: 21px;
+    top: 695px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+
+.card {
+  /**
+   * Lay out the children of this container with
+   * flexbox, which is horizontal by default.
+   */
+  display: flex;
+
+  /**
+   * Rotate the main axis so that the children
+   * are laid out vertically.
+   */
+  flex-direction: column;
+
+  border: 1px solid #CAD0D2;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.card__description {
+  /**
+   * Lay out the children of this container with
+   * flexbox.
+   */
+  display: flex;
+
+  /**
+   * We're going to lay out this element's children
+   * just like in the "Centered prompt" example.
+   * First we'll rotate the main axis so that the
+   * children are laid out vertically.
+   */
+  flex-direction: column;
+
+  /**
+   * Just like in the "Centered prompt", we'll
+   * group the children in the center of their
+   * container.
+   */
+  justify-content: center;
+
+  /**
+   * And just like in the "Centered prompt" example,
+   * we'll align the children in the center, along
+   * the main axis.
+   */
+  align-items: center;
+
+  padding: 15px 0;
+}
+
+.card__descriptionIcon {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.card__descriptionText {
+  color: #57727C;
+  font-size: 12px;
+  text-align: center;
+  max-width: calc(100% - 30px);
+}
+
+.card__price {
+  text-align: center;
+  color: #57727C;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-top: 1px solid #D7DBDD;
+  background-color: #EEF3F5;
+}
+
+.card--fixedWidth {
+  max-width: 120px;
+}
+
+.flex-container-documents {
+  position: absolute;
+  top: 600px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.flex-container-documents > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+  width: 152px;
+  height: 145px;
+  border: 1px solid #323130;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.flex-container-documents-table {
+  position: absolute;
+  top: 300px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.flex-container-documents-table > div {
+  margin: 10px;
+  width: 850px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #323130;
+  border-radius: 4px;
+}
+
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+.file-input__label {
+  min-width: 149px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #323130;
+  border: 2px dotted #D0021B;
+}
+
+.file-input__label:hover {
+  background-color: rgba(208, 2, 27, 100);
+  color: #FFFFFF;
+  svg {
+    color: #A19F9D;
+  }
+}
+
+.file-input__label svg {
+  vertical-align: center;
+  margin-right: 4px;
+}
+
+.title-table-references {
+  font-family: Poppins, serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: -0.24px;
+  color: #D0021B;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#global {
+  height: 200px;
+  width: 850px;
+  border: 0.5px solid #ddd;
+  overflow-y: scroll;
+}

@@ -1,0 +1,102 @@
+@import '../../../assets/styles/brand-colors';
+@import '../../../assets/styles/font-styles';
+
+.form-control-mobile-credit,
+.form-control-50-credit,
+.form-control-credit {
+  width: 618px;
+  height: 36px;
+  border-radius: 18px;
+  background: $white;
+  border: 1px solid $pink;
+  box-shadow: 0 0 2px rgba(208, 2, 27, 0.704044);
+  margin: 8px;
+  padding-left: 10px;
+}
+
+.form-control-credit {
+  width: 760px;
+  font-size: 14px;
+}
+
+.form-control-50-credit {
+  width: 360px;
+  font-size: 14px;
+}
+
+.form-control-mobile-credit {
+  width: 325px;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.form-control-small-button {
+  width: 300px;
+}
+
+.form-control-small-button-large {
+  width: 582px;
+}
+
+.form-control::placeholder {
+  padding-left: 2px;
+  color: $gray-1;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 40%;
+  text-align: left;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 60%;
+  margin: 30px 400px 30px 30px;
+}
+
+.flex-container-form {
+  display: inline-flex;
+  align-items: baseline;
+  padding: -8px;
+}
+
+.flex-container-form > div {
+  color: $white;
+  text-align: center;
+  font-size: 30px;
+}
+.chip-message-mobile {
+  height: 39px;
+  width: 325px;
+  border-radius: 31px;
+  color: #D0021B;
+}
+
+@media (min-width: 700px) and (max-width: 991px) {
+  .form-control-credit {
+    width: 680px;
+  }
+
+  .form-control-50-credit {
+    width: 310px;
+  }
+  .flex-item-right {
+    padding: 10px;
+    flex: 70%;
+  }
+}
+

@@ -1,0 +1,134 @@
+@import '../../../assets/styles/brand-colors';
+@import '../../../assets/styles/font-styles';
+
+
+.label-applicant-text {
+  position: absolute;
+  left: 4.92%;
+  right: 73.98%;
+  top: 42.9%;
+  bottom: 53.8%;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #4A4A4A;
+
+}
+
+.form-control-application {
+  height: 36px;
+  border-radius: 18px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0 0 2px rgba(208, 2, 27, 0.704044);
+  margin: 8px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.label-form-detalle {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.label-form-applicant {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  /* color/black */
+
+  color: #000000;
+}
+
+.flex-container-application {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex--application-item-left {
+  padding: 20px;
+  flex: 50%;
+  text-align: left;
+  border: 2px solid #D0021B;
+  border-radius: 44px;
+  margin: 20px;
+}
+
+.flex--application-item-right {
+  padding: 20px;
+  flex: 50%;
+  border: 2px solid #D0021B;
+  border-radius: 44px;
+  margin: 20px;
+}
+
+.form-control-large-text-area {
+  width: 618px;
+  height: 36px;
+  border-radius: 18px;
+  background: #FFFFFF;
+  border: 1px solid #F0F0F0;
+  box-shadow: 0 0 2px rgba(208, 2, 27, 0.704044);
+  margin: 8px;
+  padding-left: 10px;
+}
+
+.form-control-large-text-area {
+  width: 680px;
+  height: 76px;
+}
+
+@media (max-width: 400px) {
+  .flex-container-application {
+    flex-direction: column;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container-options {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left-options {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right-options {
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container-options {
+    flex-direction: column;
+  }
+}

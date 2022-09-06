@@ -1,0 +1,75 @@
+.rating-graph {
+    margin: 10px 2px 25px;
+}
+
+.rating-graph .graph {
+    width: 170px;
+    height: 155px;
+    border-bottom: 19px;
+    box-shadow: var(--drop-box-shadow);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.half-donut {
+    width: 120px;
+    height: 60px;
+    border-radius: 105px 105px 0px 0px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: conic-gradient( #f1c012 0deg 90deg, #1b9543 90deg 180deg, #f13a00 180deg 270deg, #0058e6 270deg 360deg);
+    position: relative;
+}
+
+.half-donut .hole {
+    width: 90px;
+    height: 47px;
+    border-radius: 79px 79px 0px 0px;
+    background: #fff;
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    z-index: 1;
+}
+
+.half-donut .hole .center-point {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #000000;
+    border-radius: 50%;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
+
+.half-donut .hole .line {
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    background: #000000;
+    top: 44px;
+    left: 0px;
+    z-index: 2;
+    transform-origin: right;
+    transition: all 0.4s ease-in-out;
+}
+
+.rating-graph .graph p {
+    margin: 7px auto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .rating-graph .graph {
+        margin: 0 auto;
+    }
+    .half-donut .hole {
+        top: 15px;
+    }
+}

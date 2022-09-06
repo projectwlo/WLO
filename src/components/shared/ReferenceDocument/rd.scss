@@ -1,0 +1,194 @@
+.Referencias{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    .header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            font-weight: 600;
+            font-size: 30px;
+            line-height: 45px;
+            color: #D0021B;
+        }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+        }
+    }
+    .referenceTable{
+        width: 80%;
+        padding: 20px 30px 10px;
+    }
+}
+
+.footer{
+    .footer-text{
+        text-align: center;
+        padding: 20px;
+        h4{
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 33px;
+            color: #D0021B;
+            width: 60%;
+            margin: 10px auto;
+        }
+        p{
+            font-size: 20px;
+            line-height: 30px;
+            color: #000000;
+            width: 50%;
+            margin: 0 auto;
+            span{
+                font-weight: 600;
+            }
+        }
+        @media (max-width: 768px) {
+            h4{
+                width: 100%;
+            }
+            p{
+                width: 100%;
+            }
+        }
+    }
+    .footer-body{
+        padding: 20px;
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        .document{
+            border: 1px solid #323130;
+            margin: 5px 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                margin-top: 10px;
+                font-size: 12px;
+                line-height: 16px;
+                text-align: center;
+                color: #323130;    
+            }
+        }
+        .document.check{
+            background: #D0021B;
+            svg{
+                height: 50px;
+            }
+            p{
+                color: #ffffff;
+            }
+        }
+    }
+    @media (max-width: 768px) {
+        .footer-body{
+            width: 80%;
+            flex-direction: column;
+            align-items: center;
+            .document{
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+.referenceTable{
+    padding: 20px 10px 10px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid #D0021B;
+    border-radius: 44px;
+    .title{
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        color: #D0021B;
+    }
+    .table{
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        ul{
+            display: flex;
+            width: 95%;
+            margin: 0 auto !important;
+            border-bottom: 1px solid #D3DAE6;
+            li.listItem{
+                font-size: 14px;
+                line-height: 21px;
+                letter-spacing: -0.08px;
+                color: #4A4A4A;                    
+                width: 100%;
+                list-style: none;
+                border-bottom: none !important;
+                &:nth-child(2){
+                    color: #D0021B;
+                }
+                &:last-child{
+                    button{
+                        padding: 5px 15px;
+                        background: #4A4A4A;
+                        color: #FFFFFF;
+                        border: none;
+                        border-radius: 182px;
+                        margin-right: 30px;
+                        width: 180px;
+                    }
+                    @media (max-width: 768px) {
+                        button{
+                            margin-right: 0px;
+                            width: 100%;
+                        }
+                    }
+                }
+                &:last-child.listHeader{
+                    button{
+                        background: #979797;
+                    }
+                }
+            }
+            li.listHeader{
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 18px;
+                letter-spacing: -0.24px;                 
+                color: #D0021B;
+            }
+        }
+        @media (max-width: 768px) {
+            ul{
+                width: 100%;
+            }
+        }
+        .agregar {
+            width: 95%;
+            margin: 0 auto !important;
+            button{
+                padding: 7px 75px;
+                margin: 20px 5px;
+                background: #D0021B;
+                border: none;
+                color: #ffffff;
+                border-radius: 18px;
+            }
+        }
+        @media (max-width: 768px) {
+            .agregar{
+                width: 100%;
+            }
+            .agregar button{
+                width: 100%;
+            }   
+        }
+    }
+}
+@media (max-width: 768px) {
+    .referenceTable{
+        width: 100%;
+    }
+}

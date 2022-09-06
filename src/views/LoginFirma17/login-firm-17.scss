@@ -1,0 +1,122 @@
+.loginfirma17  {
+    nav.navbar{
+        background: none;
+    }
+    .loginfirm{
+        width: 50%;
+        margin: 30px auto;
+        padding-left: 50px;
+        .title-firma{
+            font-family: 'Poppins', serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 27px;
+            color: #FFFFFF;
+            padding: 10px 0px 0px 10px;
+        }
+        form section {
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        .title-login {
+            position: static;
+            width: 100%;
+            height: auto;
+            left: 0px;
+            top: 0px;
+            font-family: 'Bebas Neue', serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 86.5%;
+            color: #FFFFFF;
+            text-align: left;
+            padding: 10px;
+        }
+        .form-control-login-text {
+            width: 100%;
+            height: auto;
+            left: 0px;
+            text-align: left;
+            top: 0px;
+            font-family: "Poppins", serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            color: #FFFFFF;
+            padding-top: 10px;
+        }
+        .subtitle-login {
+            position: static;
+            width: 100%;
+            height: auto;
+            left: 0px;
+            top: 0px;
+            font-family: 'Poppins', serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 21px;
+            line-height: 32px;
+            /* identical to box height */
+            color: #FFFFFF;
+            text-align: left;
+            padding: 10px;
+        }
+        .login-container {
+            text-align: left;
+            position: static;
+            width: 100%;
+            height: auto;
+            left: 0px;
+            top: 0px;
+            padding: 10px;
+        }
+        .form-control-login-text {
+            padding-left: 10px;
+        }
+        form .form-control-small-button{
+            margin-left: 10px;
+            border: 2px solid #ffffff;
+            transition: all 0.5s ease;
+            background: none;
+            &:hover{
+                color: #000000;
+            }
+        }
+        @media (max-width: 800px) {
+            .login-container {
+                background: none;
+                border: none;
+                box-shadow: none;
+            }
+            .title-firma{
+                font-size: 14px;
+                line-height: 20px;
+            }
+            .title-login {
+                font-size: 36px;
+                line-height: 40px;
+            }
+            .form-control-login-text {
+                font-size: 16px;
+                line-height: 22px;
+            }
+            .subtitle-login {
+                font-size: 18px;
+                line-height: 24px;
+            }
+            .form-control-50-credit {
+                width: 90%;
+                font-size: 14px;
+            }
+        }
+    }
+    @media (max-width:768px) {
+        .loginfirm{
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}

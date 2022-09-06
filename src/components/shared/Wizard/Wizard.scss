@@ -1,0 +1,15 @@
+form .css-13ayw4o-MuiPaper-root {
+    padding: 10px 0px 5px !important;
+    margin: 0px 15px !important;
+}
+
+@media (max-width: 768px) {
+    form .css-13ayw4o-MuiPaper-root:first-child {
+        margin-left: 10px;
+        text-align: left;
+    }    
+    form .css-13ayw4o-MuiPaper-root:last-child {
+        margin-right: 10px;
+        text-align: right;
+    }    
+}

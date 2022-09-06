@@ -1,0 +1,164 @@
+@import '../../../../assets/styles/brand-colors';
+@import '../../../../assets/styles/font-styles';
+
+.container-modal {
+  position: absolute;
+  left: 23.28%;
+  right: 20.08%;
+  top: 13.43%;
+  bottom: 5.35%;
+
+  background: #FFFFFF;
+  border-radius: 20px;
+  border-color: red;
+}
+
+.svg-x-modal {
+  position: absolute;
+  left: 74.15%;
+  right: 23.82%;
+  top: 17.73%;
+  bottom: 78.89%;
+
+  transform: rotate(0.27deg);
+}
+
+.modal-header {
+  border-bottom: 0 none;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.modal {
+  top: 103px;
+  border-radius: 20px;
+}
+
+.text-question {
+
+
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+  padding-inline: 30px;
+  color: #000000;
+}
+
+.button-answers {
+  padding-right: 5px;
+}
+
+.question-5 {
+
+  left: 28.83%;
+  right: 35.94%;
+  top: 62.45%;
+  bottom: 28.16%;
+
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+}
+
+.question-4 {
+  left: 28.83%;
+  right: 45.47%;
+  top: 53.46%;
+  bottom: 40.29%;
+
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.question-5 {
+
+  left: 28.83%;
+  right: 35.94%;
+  top: 62.45%;
+  bottom: 28.16%;
+
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+}
+
+.question-3 {
+
+  left: 28.59%;
+  right: 49.06%;
+  top: 46.54%;
+  bottom: 50.33%;
+
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+
+}
+
+.flex-container-peps {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left-peps {
+  padding: 10px;
+  flex: 100%;
+  text-align: left;
+}
+
+.flex-item-right-peps {
+  padding: 10px;
+  flex: 40%;
+  margin: 20px;
+  margin-left: 133px;
+}
+
+.btn-continue-peps {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  align-self: center;
+  background: #D0021B;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.195772);
+  border-radius: 18px;
+}

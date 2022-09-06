@@ -1,0 +1,100 @@
+@import '../../../assets/styles/brand-colors';
+@import '../../../assets/styles/font-styles';
+
+nav.navbar{
+    background: #4A4A4A;
+    padding: 0px;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    .container{
+        max-width: 100%;
+        padding: 0px 20px;
+        @media (max-width: 768px) {
+            button{
+                display: none;
+            }
+        }
+    }
+    .navbar-brand{
+        display: flex;
+        padding: 0px;
+        img{
+            border-right: 1px solid #fff;
+            width: 15%;
+            padding: 0px 10px;
+            margin: 10px 0px;
+            &:first-child{
+                width: 20%;
+            }
+            &:last-child{
+                width: 19%;
+                border-right: none;
+            }
+        }
+        @media (max-width: 768px) {
+            img{
+                display: none;
+                &:first-child{
+                    display: block;
+                    width: 100%;
+                    border-right: none;
+                }
+            } 
+        }
+    }
+    .nav-item a{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        color: #FFFFFF;
+        margin-right: 40px;
+    }
+    .show > .nav-link, .navbar-nav .nav-link.active {
+        color: #FFFFFF;
+    }
+    .user{
+        display: flex;
+        .info{
+            display: flex;
+            flex-direction: column;
+            margin-right: 10px;
+            h4{
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 23px;
+                letter-spacing: -0.015em;
+                color: #FFFFFF;   
+                margin: 0px 0px 3px; 
+            }
+            @media (max-width: 768px) {
+                h4{
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+            p{
+                font-weight: 300;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: -0.015em;
+                color: #FFFFFF;
+                margin: 0px;
+            }
+        }
+    }
+    .dropdown-menu.show {
+        display: block;
+        background: #4A4A4A;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .css-13ayw4o-MuiPaper-root:nth-child(2) {
+        padding: 0px;
+    }
+    .css-n7tliy-MuiStep-root {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

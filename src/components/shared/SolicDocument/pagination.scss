@@ -1,0 +1,105 @@
+
+.pagination {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    ul {
+        padding: 0px 1px;
+        width: auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        .paginate-item {
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.08px;
+            cursor: pointer;
+            border-top: 1px solid #00ffff;
+            width: 10px;
+            margin: 0px 10px;
+            text-align: center;
+            background: #e5ffff;
+        }
+        .paginate-item.active {
+            border-bottom: 1px solid #858585;
+        }
+        .paginate-item.next {
+            width: 10%;
+            border-top: none;
+            background: none;
+            color: #000000;
+        }
+        .paginate-item.next.disable {
+            color: #c7c7c7;
+        }
+        .paginate-item.back {
+            width: 10%;
+            border-top: none;
+            background: none;
+            color: #000000;
+        }
+        .paginate-item.back.disable {
+            color: #c7c7c7;
+        }
+    }
+    @media (max-width: 768px) {
+        ul {
+            width: 100%;
+            justify-content: center;
+        }
+    }
+    .itemsPerPage{
+        align-items: flex-start;
+        p{
+            padding: 0px;
+            margin: 0px 10px
+        }
+        span{
+            padding: 0px;
+        }
+    }
+    .itemsPerPage {
+        ul{
+            flex-direction: column;
+            justify-content: flex-start;
+            ul.close{
+                display: none;
+            }
+            ul{
+                li{
+                    cursor: pointer;
+                }
+            }
+        }
+        @media (max-width: 768px) {
+            ul{
+                width: auto;
+            }
+        }
+    }
+    .pageNum{
+        padding: 0px;
+        margin: 0px;
+        width: 30%;
+        align-items: center;
+    }
+    @media (max-width: 768px) {
+        .itemsPerPage{
+            justify-content: center;
+        }
+        .pageNum{
+            width: 100%;
+            margin: 10px;
+        }
+    }
+}
+@media (max-width: 768px){
+    .pagination{
+        flex-direction: column;
+    }
+}
+
+
+
+

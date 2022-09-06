@@ -1,0 +1,191 @@
+@import '../../assets/styles/brand-colors';
+@import '../../assets/styles/font-styles';
+
+.img-logo-login {
+  position: absolute;
+  width: 303px;
+  height: 99px;
+  left: 14px;
+  top: 18px;
+  background: url('../../assets/images/logo.png');
+}
+
+.title-login {
+  position: absolute;
+  width: 490px;
+  height: 104px;
+  left: 95px;
+  top: 123px;
+  font-family: 'Bebas Neue', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 86.5%;
+  /* or 52px */
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.subtitle-login {
+  position: absolute;
+  width: 501px;
+  height: 32px;
+  left: 95px;
+  top: 227px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 32px;
+  /* identical to box height */
+  color: #FFFFFF;
+  text-align: left;
+}
+
+.login-container {
+  position: absolute;
+  width: 300px;
+  height: 36px;
+  left: 98px;
+  top: 328px;
+
+}
+
+.form-control-login {
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #FFFFFF;
+  border: 1px solid #D0021B;;
+  border-radius: 18px;
+}
+
+.form-control-login-text {
+  width: 121px;
+  height: 30px;
+  left: 101px;
+  top: 377px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+
+.form-control-login-lost-password {
+  left: 20.08%;
+  right: 52.34%;
+  top: 70.05%;
+  bottom: 27.6%;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+  padding-left: 160px;
+  margin-top: 4px;
+}
+
+.form-control-button-login-continue {
+  box-sizing: border-box;
+  width: 145px;
+  height: 36px;
+  left: 98px;
+  top: 584px;
+  border: 3px solid #FFFFFF;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.form-control-button-login-text {
+  height: 21px;
+  left: 33px;
+  right: 38px;
+  top: 10px;
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .title-login {
+    position: absolute;
+    width: 282px;
+    height: 105px;
+    left: 43px;
+    top: 141px;
+    font-family: 'Bebas Neue', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 86.5%;
+    /* or 35px */
+    color: #FFFFFF;
+  }
+  .subtitle-login {
+    position: absolute;
+    width: 242px;
+    height: 54px;
+    left: 43px;
+    top: 246px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 27px;
+    color: #FFFFFF;
+  }
+
+
+  .login-container {
+    box-sizing: border-box;
+
+    left: 8.89%;
+    right: 7.78%;
+    bottom: 32.12%;
+    background: #FFFFFF;
+    border: 1px solid #D0021B;
+    box-shadow: 0 0 2px rgba(208, 2, 27, 0.704044);
+    border-radius: 18px;
+  }
+  .form-control-button-login-continue {
+    box-sizing: border-box;
+
+    width: 145px;
+    height: 36px;
+    left: 32px;
+    top: 600px;
+    border: 3px solid #D0021B;
+    border-radius: 18px;
+  }
+  .form-control-button-login-text {
+    height: 21px;
+    left: 33px;
+    right: 38px;
+    top: 9px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    text-align: center;
+    color: #D0021B;
+  }
+}

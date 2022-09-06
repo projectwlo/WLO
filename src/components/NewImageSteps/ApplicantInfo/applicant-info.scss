@@ -1,0 +1,87 @@
+.flex-container-applicant-info {
+  display: flex;
+  background-color: #f1f1f1;
+}
+
+.flex-container-applicant-info-item-right
+.flex-container-applicant-info-item-left {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.flex-container-applicant-info-item-center {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.flex-container-applicant-info-item-right {
+  padding-right: 12.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: right;
+}
+
+.flex-container-applicant-info-item-left {
+  padding-left: 12.5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.flex-container-applicant-info > div {
+  background-color: DodgerBlue;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+
+.form-applicant-info-input-large,
+.form-applicant-info-input-medium,
+.form-applicant-info-input-small,
+.form-applicant-info-input-xs {
+  height: 34px;
+  border-radius: 18px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-shadow: 0 0 2px rgba(208, 2, 27, 0.704044);
+  padding: 10px;
+}
+
+.form-applicant-info-input-large {
+  width: 417px;
+
+}
+
+.form-applicant-info-input-medium {
+  width: 201px;
+
+}
+
+.form-applicant-info-input-small {
+  width: 137px;
+
+}
+
+.form-applicant-info-input-xs {
+  width: 70px;
+
+}
+
+.title-modal-spouse {
+  font-family: 'Poppins', serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  color: #D0021B;
+}

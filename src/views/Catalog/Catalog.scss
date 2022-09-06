@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+.flex-container-catalog {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
+
+.flex-item-left-catalog {
+  padding: 20px;
+  flex: 50%;
+}
+
+.flex-item-right-catalog {
+  padding: 20px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 800px) {
+  .flex-container-catalog {
+    flex-direction: column;
+  }
+}
+
+.title-model {
+  font-family: Bebas Neue, serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0;
+  text-align: center;
+  color: #000000;
+}
+
+.title-motos-catalog {
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 128%;
+  text-align: center;
+  color: #D0021B;
+}
+
+.subtitle-motos-catalog {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 128%;
+  text-align: center;
+  color: #050713;
+}
+
+.form-control-credit-catalog {
+  box-sizing: border-box;
+  border-radius: 100px;
+}
+
+// new
+.form-control-credit {
+  width: 90%;
+  margin-left: auto;
+  font-size: 14px;
+}
+.flex-item-right-catalog img{
+  margin: 0 auto;
+}
